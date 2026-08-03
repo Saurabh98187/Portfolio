@@ -1,0 +1,251 @@
+/* ==========================================
+   RESPONSIVE DESIGN
+========================================== */
+
+/* ===============================
+   Large Devices (1200px and below)
+================================ */
+
+@media (max-width: 1200px) {
+
+    .hero h1 {
+        font-size: 52px;
+    }
+
+    .hero-image {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+/* ===============================
+   Laptops (992px and below)
+================================ */
+
+@media (max-width: 992px) {
+
+    .navbar-nav {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .nav-link {
+        margin: 10px 0;
+    }
+
+    .hero {
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .hero .row {
+        flex-direction: column-reverse;
+    }
+
+    .hero-image {
+        width: 280px;
+        height: 280px;
+        margin-bottom: 40px;
+    }
+
+    .hero h1 {
+        font-size: 46px;
+    }
+
+    .hero h3 {
+        font-size: 28px;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    #about img {
+        margin-bottom: 35px;
+    }
+
+    .list-group {
+        margin-top: 20px;
+    }
+
+    .section-title {
+        font-size: 34px;
+    }
+
+}
+
+/* ===============================
+   Tablets (768px and below)
+================================ */
+
+@media (max-width:768px){
+
+    .hero{
+
+        min-height:auto;
+        padding:120px 0 80px;
+
+    }
+
+    .hero h1{
+
+        font-size:40px;
+
+    }
+
+    .hero h3{
+
+        font-size:24px;
+
+    }
+
+    .hero p{
+
+        font-size:16px;
+
+    }
+
+    .hero-image{
+
+        width:240px;
+        height:240px;
+
+    }
+
+    .btn{
+
+        width:100%;
+        margin-bottom:15px;
+
+    }
+
+    .section-title{
+
+        font-size:30px;
+
+    }
+
+    #about{
+
+        padding:80px 0;
+
+    }
+
+    .list-group-item{
+
+        text-align:left;
+
+    }
+
+    footer{
+
+        font-size:14px;
+
+    }
+
+}
+
+/* ===============================
+   Mobile (576px and below)
+================================ */
+
+@media (max-width:576px){
+
+    .navbar-brand{
+
+        font-size:22px;
+
+    }
+
+    .hero h1{
+
+        font-size:34px;
+
+    }
+
+    .hero h3{
+
+        font-size:20px;
+
+    }
+
+    .hero h4{
+
+        font-size:18px;
+
+    }
+
+    .hero-image{
+
+        width:200px;
+        height:200px;
+
+    }
+
+    .section-title{
+
+        font-size:28px;
+
+    }
+
+    .btn{
+
+        font-size:15px;
+        padding:12px;
+
+    }
+
+    #topBtn{
+
+        width:45px;
+        height:45px;
+        font-size:18px;
+
+    }
+
+}
+
+/* ===============================
+   Small Mobile (400px and below)
+================================ */
+
+@media (max-width:400px){
+
+    .hero h1{
+
+        font-size:30px;
+
+    }
+
+    .hero h3{
+
+        font-size:18px;
+
+    }
+
+    .hero p{
+
+        font-size:15px;
+
+    }
+
+    .hero-image{
+
+        width:170px;
+        height:170px;
+
+    }
+
+    .section-title{
+
+        font-size:24px;
+
+    }
+
+    .list-group-item{
+
+        font-size:14px;
+
+    }
+
+}
